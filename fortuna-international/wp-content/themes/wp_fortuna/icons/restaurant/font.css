@@ -1,0 +1,21 @@
+@font-face {
+	font-family: 'Restaurant Regular';
+	src: url("../../assets/fonts/Restaurant-Regular.eot");
+	src: url("../../assets/fonts/Restaurant-Regular.eot?#iefix") format("embedded-opentype"), 
+	url("../../assets/fonts/Restaurant-Regular.woff") format("woff"), 
+	url("../../assets/fonts/Restaurant-Regular.ttf") format("truetype"), 
+	url("../../assets/fonts/Restaurant-Regular.svg") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+[class^="restaurant-icon-"]:before,
+[class*="restaurant-icon-"]:before,
+.restaurant-ico {
+	font-family: "Restaurant Regular";
+	font-weight: 400;
+	font-style: normal;
+	font-size: inherit;
+	text-transform: none;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
